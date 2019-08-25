@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+<title>Buying Page</title>
+</head>
+
+<body background="/bk2">
+<form method="post" action = "/updateCart">
+<table align="center" border="1">
+<tr>
+<td><lable>Cat Food 1</lable></td>
+<td><img src=item1 height="200" width="200"></td>
+<td width="100" align="center"><input type="nunmber" name="catFood1" id="catFood1" size="4" required value="0"></td>
+</tr>
+<tr>
+<td><lable>Cat Food 2</lable></td>
+<td><img src=item2 height="200" width="200"></td>
+<td width="100" align="center"><input type="nunmber" name="catFood2" id="catFood2" size="4" required value="0"></td>
+</tr>
+<tr>
+<td><lable>Cat Food 3</lable></td>
+<td><img src=item3 height="200" width="200"></td>
+<td width="100" align="center"><input type="nunmber" name="catFood3" id="catFood3" size="4" required value="0"></td>
+</tr>
+<tr>
+<td align="center"><input type="button" value="View the Cart" onclick="location.href='/cart'"></td>
+<td></td>
+<td align="center"><input type="submit" value="Update Cart"></td>
+</td>
+</tr>
+</table>
+</form>
+<p align="center"><input type="button" value="Logout" onclick="location.href='/logout'"></P>
+</body>
+</html>
